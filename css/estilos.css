@@ -27,6 +27,21 @@ body{
   width: 100%;
 }
 
+.main-titulo-2{
+  font-family: gameFont;
+  font-size: 3em;
+  color: #DCFF0E;
+  width: 100%;
+  text-align: center;
+}
+
+.main-titulo-efecto{
+  font-family: gameFont;
+  font-size: 3em;
+  color: white;
+  width: 100%;
+}
+
 .panel-tablero{
   width: 70%;
   border: 10px solid #E87306;
@@ -101,7 +116,6 @@ div[class^='col']{
   flex-flow: column wrap;
   justify-content: flex-end;
   align-items: center;
-
 }
 
 .elemento{
