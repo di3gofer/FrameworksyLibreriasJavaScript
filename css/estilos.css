@@ -118,6 +118,11 @@ div[class^='col']{
   align-items: center;
 }
 
+div[id^='item']{
+  padding-top: 7%;
+  /*margin-top: 7%;*/
+}
+
 .elemento{
   width: 99.4px;
   height: 96px;
