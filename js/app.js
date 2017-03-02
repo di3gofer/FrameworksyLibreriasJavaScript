@@ -29,7 +29,7 @@ var juegoDulces = {
           console.log('Error en el estado juegoActivo');
       }
     });
-    //this.animacionTitulo();
+    this.animacionTitulo();
     this.cargarImagenes();
   },
   iniciarJuego: function(){
@@ -142,7 +142,7 @@ var juegoDulces = {
                 juegoDulces.scanRepetidosCol();
                 juegoDulces.scanRepetidosFil();
                 juegoDulces.animacionAcertar();
-              }              
+              }
             }
           },
           drag: function(event, ui){}
